@@ -9,3 +9,14 @@ km
 metros
 8046.72
 """
+milhas = 5
+
+km = milhas / 0.62137
+
+metros = 1000 * km
+
+print(f'milhas \n{milhas}')
+print(f'km \n{km:.5f}')
+print(f'metros \n{metros:.2f}')
+
+# Usando as fórmulas e método passado, meu valor foi 8.04674 e 8046.74 e não 8.04672 e 8046.72

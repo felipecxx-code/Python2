@@ -21,3 +21,7 @@ Escreva um código parar desencriptar a mensagem definida na variável mensagem_
 mensagem_encriptada = "Otleár cAelpitcaed!a .R eMsaosl vaig omruad acro mn oessssae  cnroivpot omgértaofdioa ,n iancgrueédmi tvoa iq uceo nnsoesgsuai rú llteirm an omsesnassa gmeemn sfaogie nisn."
 
 # Escreva seu código abaixo
+
+mensagem_decifrada = mensagem_encriptada[0::2]
+mensagem_decifrada2 = mensagem_encriptada[1::2]
+print(mensagem_decifrada + mensagem_decifrada2)

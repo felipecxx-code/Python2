@@ -18,21 +18,22 @@ mensagem = "Instituto Infnet"
 
 # Item a
 # Escreva seu código abaixo
-
+print(mensagem[0])
 # Item b
 # Escreva seu código abaixo
-
+print(mensagem[15])
 # Item c
 # Escreva seu código abaixo
-
+print(mensagem[-1])
 # Item d
 # Escreva seu código abaixo
-
+print(mensagem[2])
 # Item e
 # Escreva seu código abaixo
-
+print(mensagem[0:3])
 # Item f
 # Escreva seu código abaixo
-
+print(mensagem[13:16])
 # Item g
 # Escreva seu código abaixo
+print(len(mensagem))

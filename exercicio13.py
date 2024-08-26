@@ -7,3 +7,8 @@ Escreva um programa que receba entrada um número inteiro e transforme o mesmo �
 
 Dica: Veja que nessa situação é melhor tratar o número como uma str pois é mais fácil de inverter o número dessa maneira. 
 """
+valor = input('Digite um valor: ') # Valor que o usuário passar
+
+copia = valor[::-1] # inverte o valor passado pelo usuário
+palíndramo = valor + copia # Concatenação do valor passado e invertido
+print(palíndramo) # Resultado do palíndromo impresso na tela
